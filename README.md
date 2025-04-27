@@ -127,6 +127,8 @@ second, third, etc. occurrences, removed, and
 where the remaining elements appear in the same
 order as in `xs`.
 
+Your function should be tail-recursive.
+
 Once you have implemented the function, you
 should get the following behavior:
 
@@ -176,6 +178,9 @@ The expression  `fixpointL f x0` should return the list
 * `x = x_0`
 * `f x_0 = x_1, f x_1 = x_2, f x_2 = x_3, ... f x_n = x_{n+1}`
 * `x_n = x_{n+1}`
+
+This function does NOT need to be tail-recursive. 
+
 
 When you are done, you should see the following behavior:
 
